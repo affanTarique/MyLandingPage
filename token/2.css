@@ -1,0 +1,29 @@
+body{
+    background-color: #121212;
+    color:white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+.wallet-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: purple;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 9px;
+}
+.wallet-btn:hover {
+    background: #6a0dad;
+}
+
+.form-container {
+    max-width: 500px;
+    background-color: beige;
+    margin: 80px auto;
+    padding: 20px;
+    border-radius: 10px;
