@@ -83,7 +83,7 @@ label {
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-    border-radius: 9px;
+    border-radius: 8px;
 }
 #createToken:hover {
     background: #6a0dad;
