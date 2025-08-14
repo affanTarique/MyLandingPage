@@ -10,8 +10,57 @@
     <button id="connectWallet" class="wallet-btn"> Connect button </button>
 
     <div class = "form-container">
-        <h1> Solana Token Creator</h1>
-        
+        <h1 id="heading"> Solana Token Creator</h1>
+        <form id ="tokenForm">
+            <label for="tokenName"> *Token name: </label>
+            <input type="text" id="tokenName" required>
+            <br> 
+
+
+            <label for="symbol"> *Symbol: </label>
+            <input type="text" id="symbol"  required>
+
+            <br>
+
+
+            <label for="deciaml"> *Decimal: </label>
+            <input type="text" id="tokenName" min="0" value="0" required>
+            <br>
+
+
+            <label for="supply"> *Supply: </label>
+            <input type="text" id="tokenName" min="0" value="0" required>
+            <br>
+
+
+
+            <label for="Description"> Description: </label>
+            <input type="text" id="desc" rows="4" cols="50" required>
+            <br>
+
+
+
+            <label id="image" for="Image"> *Image: </label>
+            <div class="image-upload">
+                <input type="file" id="imageUpload" accept="image/*" required>
+                <img id="previewImage" alt="No image uploaded">
+            </div> <br>
+
+                
+
+
+
+            <label for="freeze-authority"> Freeze-authority:</label>
+            <input type="text" id="tokenName" placeholder="optional" required>
+            <br>
+
+
+            <p id="para"> Please connect your wallet</p>
+
+            <button type="submit" id="createToken" class="create-btn"> Create Token </button>
+            
+        </form>
+
     </div>
 </body>
 </html>
